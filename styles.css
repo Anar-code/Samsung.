@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    gap: 50px;
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-container {
+    display: flex;
+    gap: 30px;
+}
+
+.service-container {
+    display: flex;
+    gap: 30px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+}
